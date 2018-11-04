@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('bigjohn-webfont.woff2') format('woff2'),
+         url('bigjohn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'slim_joeregular';
+    src: url('slimjoe-webfont.woff2') format('woff2'),
+         url('slimjoe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+  height: 650px;
+  background-image: url(../img/header-bg.jpg);
+  position: relative;
+  min-width: 1140px;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3c4955;
+  opacity: .85;
+}
+
+.header_inner {
+  position: relative;
+  z-index: 1;
+  width: 1140px;
+  margin: auto;
+  padding: 36px 0;
+}
+
+.header_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+em{
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 50px;
+  color:white;
+  opacity: 0.5;
+  font-size: 20px;
+}
+.header_voici{
+  position: relative;
+  z-index: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.header_voici_up{
+  font-size: 52px;
+  color: white;
+}
+.header_voici_down{
+  color: white;
+  font-size: 22px;
+}
+.button{
+  position: relative;
+  z-index: 1;
+display: flex;
+align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.mes{
+  font-size: 20px;
+  color: #1CFA02;
+  border:2px solid #1CFA02;
+  border-radius: 5px;
+ 
+
+}
+
+.header_menu {
+  font: 16px/1 Arial, sans-serif;
+}
+
+.header_link {
+  color: white;
+  text-decoration: none;
+}
