@@ -1,0 +1,144 @@
+*{
+padding: 0;
+margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Open+Sans', sans-serif;*/
+	color:#60606e;
+
+}
+.header{
+	background: url(../img/bg.png);
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+}
+h1,h2,h3,h4,h5,{
+	margin-bottom: 0;
+}
+.layout{
+padding: 43px 80px;
+width: 1300px;
+margin: auto;
+}
+.layout_section{
+	margin-top:110px;
+}
+.layout_section_center{
+text-align: center;
+padding: 0 210px;
+}
+.layout_col-1-2{
+	display: flex;
+	justify-content: space-between;
+}
+.header_navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.header_title,
+.header_subtitle{
+	align-self: center; /*to do text style menu*/
+
+}
+.header_title{
+	margin-top: auto;
+
+}
+.header_subtitle{
+	margin-top:30px;
+	margin-bottom: auto;
+}
+.benefite_title{
+	font:700 30px/48px 'Montserrat', sans-serif;
+}
+
+
+.article_title:before{
+	content: '';
+	width: 70px;
+	height: 20px;
+	background: #7beec7;
+	position: absolute;
+	top: 50%;
+	
+	z-index: -1;
+}
+.article_title{
+	position: relative;
+		font:700 30px/48px 'Montserrat', sans-serif;
+
+text-transform: uppercase;
+}
+.article_subtitle{
+	font:700 14px/24px 'Open+Sans', sans-serif;
+text-transform: uppercase;
+margin:10px 0;
+}
+.article_text,
+.benefit_text{
+font:400 14px/24px 'Open+Sans', sans-serif;
+}
+.benefit_icon:before{
+content: '';
+display: inline-block;
+width: 40px;
+height: 40px;
+background: #7beec7;
+vertical-align: middle;
+margin-right: 20px ;
+}
+/*--------Foter*-------/
+*/footer{
+	background: #7beec7;
+font:700 30px/48px 'Montserrat', sans-serif;
+text-transform: unset;
+color: white;
+}
+.button{
+	background:  #7beec7;
+	font:700 14px 'Montserrat', sans-serif;
+	min-width: 130px;
+	padding: 20px 30px;
+	border:none;
+	line-height: 1em;
+	color: white;
+
+}
+.newsletter{
+	background: white;
+	padding:20px 25px;
+
+}
+.newsletter_title{
+		font:700 30px/48px 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		color:black;
+	}
+	.newsletter_text{
+		font:400 14px/24px 'Open+Sans', sans-serif;
+		color:#999;
+
+	}
+		
+.newsletter_form{
+	display: flex;
+	margin-top: 25px;
+
+	
+}
+.newsletter_button{
+	display: flex;
+	flex-grow: 1;
+    
+}
+.newsletter_email{
+	border:1px solid grey; 
+
+			flex-grow: 7;
+		}
+		
+		
