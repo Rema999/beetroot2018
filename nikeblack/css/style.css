@@ -1,0 +1,68 @@
+html,body{
+	height: 100%;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+	width: 100%;
+height: 100%;
+background-image: url(../img/main.png);
+background-size:cover;
+}
+.main{
+
+	background: #111a28;
+	border-radius: 10px;
+	height: 390px;
+	width: 680px;
+	
+	}
+	.photo{
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+	}
+
+.logo{
+	height: 40px;
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 30px
+}
+.nikeblack{
+height: 170px;
+width: 345px;
+margin-left: 40px;
+margin-top: 70px;
+}
+.color{
+	margin-top: 30px;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	display: flex;
+	
+	margin-left: 175px;
+}
+.color_black{
+	margin-left: 17px;
+	height: 8px;
+background: black;
+}
+.color_white{
+	margin-left: 17px;
+
+background: white;	
+}
+.color_red{
+	margin-left: 17px;
+
+	background: red;
+}
+.color_blue{
+	margin-left: 17px;
+
+	background: blue;
+}
